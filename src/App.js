@@ -15,8 +15,9 @@ function App() {
     <Navbar/>
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route exact path="/room" component={Room} />
-      <Route exact path="/singleroom" component={SingelRoom} />
+      <Route exact path="/rooms" component={Room} />
+      <Route exact path="/rooms/:slug" component={SingelRoom} />
+      {/* <Route exact path="/rooms/:slug" component={SingelRoom} /> */}
       <Route component={Error} />
       </Switch>
     </>
