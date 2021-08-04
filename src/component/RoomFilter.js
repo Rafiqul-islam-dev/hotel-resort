@@ -62,5 +62,6 @@ export default function RoomFilter({rooms}) {
 
             </form>
         </section>
+        
     )
 }
